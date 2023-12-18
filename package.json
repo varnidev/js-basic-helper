@@ -1,17 +1,27 @@
 {
   "name": "js-basic-helper",
-  "version": "2023.12.001",
+  "version": "2023.12.002",
   "description": "js-basic-helper is use for basic javascript operation",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Varni Dev",
+  "author": "Varnidev <contact@varnidev.com> (http://varnidev.com)",
   "keywords": [
     "Convert",
     "Array",
     "Object",
-    "ConvertArrayToObject"
+    "ConvertArrayToObject",
+    "isEmpty",
+    "emptyObject"
   ],
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/varnidev/js-basic-helper.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/varnidev/js-basic-helper/issues"
+  },
+  "homepage": "https://github.com/varnidev/js-basic-helper"
 }
