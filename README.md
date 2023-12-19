@@ -7,6 +7,7 @@ js-basic-helper is use for basic javascript operation
 ## Installation
 
 Using npm:
+
 ```
 npm i --save js-basic-helper
 ```
@@ -14,30 +15,30 @@ npm i --save js-basic-helper
 ## Usage
 
 ```
-const jsBasicHelper = require("js-basic-helper");
+import jsBasicHelper from 'js-basic-helper';
 ```
 
 > check parameter is empty or not `isEmpty(value)` method.
 
 ```
-jsBasichelper.isEmpty(undefined);                   true
-jsBasichelper.isEmpty(null);                        true
-jsBasichelper.isEmpty("");                          true
-jsBasichelper.isEmpty(" ");                         true
-jsBasichelper.isEmpty("0");                         true
-jsBasichelper.isEmpty("Varnidev");                  false
-jsBasichelper.isEmpty(0);                           true
-jsBasichelper.isEmpty(1);                           true
-jsBasichelper.isEmpty(false);                       true
-jsBasichelper.isEmpty(true);                        true
-jsBasichelper.isEmpty([]);                          true
-jsBasichelper.isEmpty(["apple", "banana"]);         false
-jsBasichelper.isEmpty({});                          true
-jsBasichelper.isEmpty({ name: "Varni Dev" });       false
+jsBasicHelper.isEmpty(undefined);                   true
+jsBasicHelper.isEmpty(null);                        true
+jsBasicHelper.isEmpty("");                          true
+jsBasicHelper.isEmpty(" ");                         true
+jsBasicHelper.isEmpty("0");                         true
+jsBasicHelper.isEmpty("Varnidev");                  false
+jsBasicHelper.isEmpty(0);                           true
+jsBasicHelper.isEmpty(1);                           true
+jsBasicHelper.isEmpty(false);                       true
+jsBasicHelper.isEmpty(true);                        true
+jsBasicHelper.isEmpty([]);                          true
+jsBasicHelper.isEmpty(["apple", "banana"]);         false
+jsBasicHelper.isEmpty({});                          true
+jsBasicHelper.isEmpty({ name: "Varni Dev" });       false
 ```
 
-
 > convert array to object using `convertArrayToObject(array, keyName)` method.
+
 ```
 const arrayList = [
   {
@@ -57,7 +58,7 @@ const arrayList = [
   },
 ];
 
-console.log(jsBasichelper.convertArrayToObject(arrayList, "uniqueKey"));
+console.log(jsBasicHelper.convertArrayToObject(arrayList, "uniqueKey"));
 
 OUTPUT:
 
@@ -69,6 +70,10 @@ OUTPUT:
 ```
 
 ## Release Version Info
+
+### V2023.12.003
+
+- convert project to typescript
 
 ### V2023.12.002
 
