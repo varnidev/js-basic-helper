@@ -1,6 +1,6 @@
 {
   "name": "js-basic-helper",
-  "version": "2023.12.003",
+  "version": "2023.12.007",
   "description": "js-basic-helper is use for basic javascript operation with typescript",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",

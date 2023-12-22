@@ -6,3 +6,6 @@
 
 # Build files
 /dist
+
+#other
+package-lock.json

@@ -8,6 +8,7 @@ function isEmpty(value: any) {
         ) {
             return true;
         }
+        return false;
     } else {
         if (value == null) {
             return true;
