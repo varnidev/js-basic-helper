@@ -1,6 +1,6 @@
 function convertArrayToObject(array: any[], keyName: string) {
     // V2023.12.001
-    let returnObject = {};
+    let returnObject: any = {};
     array.forEach((element: any) => {
         returnObject = {
             ...returnObject,
